@@ -242,6 +242,9 @@ nav{
     width: 100px;
     outline: none;
 }
+      .from{
+          width:100%;
+      }
      
   }
   h2{
