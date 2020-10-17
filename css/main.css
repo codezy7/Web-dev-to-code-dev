@@ -217,3 +217,46 @@ nav{
       }
      
   }
+  h2{
+    text-align: center;
+    margin:4px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.2);
+    margin:8px auto;
+    border-radius: 30px;
+
+} 
+.form label{
+    font-size: 17px;
+}
+.form textarea,input{
+    margin:5px;
+    padding:5px;
+    width: 300px;
+    outline: none;
+}
+
+.border{
+    width: 100px;
+    height: 5px;
+    background:green;
+    margin: 0px auto;
+  }
+.btnf{
+    background-color:green;
+    color: white;
+    border-radius: 10px;
+    margin: 5px auto;
+    display: block;
+    padding: 6px 10px;
+    border: .1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 400;
+    outline: none;
+}
